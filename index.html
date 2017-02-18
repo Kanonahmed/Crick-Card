@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+
+<html ng-app="Cric-Card" ng-controller="CricCardController as CCntrl" lang="en" xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <meta charset="utf-8" />
+    <title>start</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.2/angular-ui-router.min.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <div id="first-div">
+        <form id="frm">
+            <div id="float-left">
+                <label>First Country: </label><input type="text" id="firstcountry"><br>
+                <label>Second Country: </label><input type="text" id="secondcountry">
+            </div>
+
+            <div id="float-right">
+                <input type="radio" name="status" id="RadioButton1"></br>
+                <input type="radio" name="status" id="RadioButton2"></br>
+                <button id="SubmitButton">Play</button>
+            </div>
+        </form>
+    </div>
+    <div id="second-div">
+        <div ui-view></div>
+    </div>
+    <script src="js/module.js"></script>
+    <script src="js/controller.js"></script>
+    <script src="js/config.js"></script>
+</body>
+</html>

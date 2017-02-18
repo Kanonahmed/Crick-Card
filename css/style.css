@@ -1,0 +1,34 @@
+﻿
+#firstcountry{
+    padding:5px 5px;
+    margin-left:1%;
+}
+#secondcountry{
+    padding:5px 5px;
+    margin-top:2%;
+}
+#float-left{
+    float:left;
+    width:20%;
+}
+#float-right{
+    float:left;
+    width:20%;
+}
+#first-div {
+    height: 50%;
+}
+#second-div{
+    height:50%;
+    position:absolute;
+    bottom:-20%;
+}
+#RadioButton2{
+    margin-top:15%;
+}
+#RadioButton1{
+    margin-top:10%;
+}
+#SubmitButton{
+    margin-top:30%;
+}
