@@ -1,2 +1,7 @@
-﻿Bat: {{CCntrl.Batter}} </br>
-Bowl: {{CCntrl.Bowler}}
+﻿
+<div>
+<div>Bat: {{RouterCntrl.detail.bat}} {{RouterCntrl.run}} </div></br>
+Bowl: {{RouterCntrl.detail.bowl}}<br>
+<button ng-if="RouterCntrl.count<7" ng-click="RouterCntrl.BowlMachine()">Bowl</button>
+
+</div>

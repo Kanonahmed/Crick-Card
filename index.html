@@ -9,7 +9,11 @@
     <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-    <div id="first-div" ng-show="CCntrl.shw=true">
+     <div>
+        <div ui-view></div>
+    </div>
+	
+    <div id="first-div" ng-show="CCntrl.shw">
         <form id="frm">
             <div id="float-left">
                 <label>First Country: </label><input type="text" id="firstcountry" ng-model="CCntrl.firstcountry" ><br>
@@ -23,11 +27,13 @@
             </div>
         </form>
     </div>
-    <div id="second-div">
-        <div ui-view></div>
-    </div>
+    
+	
     <script src="js/module.js"></script>
+	<script src="js/config.js"></script>
+	<script src="js/service.js"></script>
     <script src="js/controller.js"></script>
-    <script src="js/config.js"></script>
+	<script src="js/secondController.js"></script>
+    
 </body>
 </html>

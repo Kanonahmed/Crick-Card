@@ -8,12 +8,9 @@
         .state('Play',{
             url:'/Play',
             templateUrl:'second.html',
-            controller:'CricCardController',
-            controllerAs: 'CCntrl'
+            controller:'SecondController',
+            controllerAs: 'RouterCntrl'
         });
-
-
-
     });
 
 })(window);
