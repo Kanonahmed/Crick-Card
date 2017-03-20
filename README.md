@@ -1,4 +1,1 @@
-# Cricket Score board app
-Cricket score board application using angularJS 1.6.2
-##Demo:
-https://prince3339.github.io/cricket-score-board-app/
+It is simple application where we can select two team for playing cricket and can bowl ,bat according to cricket basic rule.
